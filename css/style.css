@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'moonlight';
+    src: url('../fonts/moon_light-webfont.woff2') format('woff2'),
+    url('../fonts/moon_light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'moonbold';
+    src: url('../fonts/moon_bold-webfont.woff2') format('woff2'),
+    url('../fonts/moon_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{font-family:'moonlight', sans-serif;}
+
+/*Carousel stuff*/
+.vertical .carousel-inner {
+    height: 100vh;
+}
+
+.carousel.vertical .item {
+    -webkit-transition: 0.6s ease-in-out top;
+    -moz-transition: 0.6s ease-in-out top;
+    -ms-transition: 0.6s ease-in-out top;
+    -o-transition: 0.6s ease-in-out top;
+    transition: 0.6s ease-in-out top;
+}
+
+.carousel.vertical .active {
+    top: 0;
+}
+
+.carousel.vertical .next {
+    top: 100%;
+}
+
+.carousel.vertical .prev {
+    top: -100%;
+}
+
+.carousel.vertical .next.left,
+.carousel.vertical .prev.right {
+    top: 0;
+}
+
+.carousel.vertical .active.left {
+    top: -100%;
+}
+
+/*Navbar*/
+.clear{
+    background-color:transparent;
+    border:transparent;
+}
+.brand{width:50%; margin-left:34vw;}
+
+/*Body*/
+.section{
+    padding:15% 10% 0 10%;
+    line-height:200%;
+}
+.section h1{
+    font-family:'moonbold',sans-serif;
+    text-align:right;
+    margin-top:-10px;
+    font-size:4em;
+}
+.section .content{
+    font-family:'Lora', serif;
+}
+
+.carousel-caption{
+    font-family:'Lora',serif;
+}
