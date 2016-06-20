@@ -72,8 +72,18 @@ body{font-family:'moonlight', sans-serif;}
 }
 .section .content{
     font-family:'Lora', serif;
+    font-size:1.3em;
+}
+
+.content{
+    font-family:'Lora', serif;
 }
 
 .carousel-caption{
     font-family:'Lora',serif;
+}
+
+footer{
+    background-color:#7f8c8d;
+    padding:10% 20% 10% 20%;
 }
