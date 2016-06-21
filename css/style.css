@@ -73,7 +73,7 @@ body{font-family:'moonlight', sans-serif;}
 }
 .section .content{
     font-family:'Lora', serif;
-    font-size:1.3em;
+    font-size:1.2em;
 }
 
 .content{
@@ -89,3 +89,7 @@ footer{
     padding:10% 20% 10% 20%;
 }
 .not-class{}
+
+@media only screen and (min-width: 768px) {
+    .navbar{padding-top:10px; padding-bottom:30px;}
+}
