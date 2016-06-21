@@ -1,0 +1,13 @@
+.bio{padding-top:5%}
+.bio:hover{
+    background-color:#ecf0f1;
+}
+a .bio, a:hover .bio{
+    text-decoration: none;
+    color:black;
+}
+
+.bio-img{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
