@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a325a7ee-03b6-41a5-b199-0984e8f271c8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/team/clair-lee.html" afterPath="$PROJECT_DIR$/team/clair-lee.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/team/kevin-laws.html" afterPath="$PROJECT_DIR$/team/kevin-laws.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/team/naval-ravikant.html" afterPath="$PROJECT_DIR$/team/naval-ravikant.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/team/shiza-shahid.html" afterPath="$PROJECT_DIR$/team/shiza-shahid.html" />
     </list>
     <ignored path="nowventures.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -475,7 +471,13 @@
       <option name="project" value="LOCAL" />
       <updated>1466566858125</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="fixed bio page navs">
+      <created>1466567093982</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1466567093982</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -538,7 +540,8 @@
     <MESSAGE value="added invest page, fixed bugs" />
     <MESSAGE value="fixed link bugs&#10;" />
     <MESSAGE value="fixed several bugs" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed several bugs" />
+    <MESSAGE value="fixed bio page navs" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed bio page navs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
