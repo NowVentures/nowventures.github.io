@@ -57,12 +57,12 @@ body{font-family:'moonlight', sans-serif;}
     background-color:transparent;
     border:transparent;
 }
-
-.brand{width:50%; margin-left:34vw;}
+.navbar-brand{padding-left:0px !important;}
+.brand{width:30%; margin-left:38vw; margin-top:-3%;}
 
 /*Body*/
 .section{
-    padding:15% 10% 0 10%;
+    padding:12% 10% 0 10%;
     line-height:200%;
 }
 .section h1{
@@ -72,23 +72,30 @@ body{font-family:'moonlight', sans-serif;}
     font-size:4em;
 }
 .section .content{
-    font-family:'Lora', serif;
+    font-family:'Open Sans', sans-serif;
     font-size:1.2em;
+    font-weight:lighter;
 }
 
 .content{
-    font-family:'Lora', serif;
+    font-family:'Montserrat', sans-serif;
 }
 
 .carousel-caption{
-    font-family:'Lora',serif;
+    font-family:'Montserrat', sans-serif;
+    font-weight:700!important;
+    font-size:2em;
 }
 
 footer{
-    background-color:white;
+    background-color:#404040;
     padding:10% 20% 10% 20%;
+    color:white;
 }
-.not-class{}
+
+.navbar{padding-top:7% !important; padding-right:10%; font-family:'moonbold', sans-serif;}
+.navbar-right li a{color:white!important;}
+.not-clear .navbar-right li a{color:black !important; }
 
 @media only screen and (min-width: 768px) {
     .navbar{padding-top:10px; padding-bottom:30px;}
