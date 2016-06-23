@@ -59,6 +59,7 @@ body{font-family:'moonlight', sans-serif;}
 }
 .navbar-brand{padding-left:0px !important;}
 .brand{width:30%; margin-left:38vw; margin-top:-3%;}
+.navbar-right li a:hover{text-decoration:underline;}
 
 /*Body*/
 .section{
@@ -99,4 +100,30 @@ footer{
 
 @media only screen and (min-width: 768px) {
     .navbar{padding-top:10px; padding-bottom:30px;}
+}
+
+@media (min-width: 768px) {
+    .container-small {
+        width: 300px;
+    }
+    .container-large {
+        padding:5px;
+    }
+}
+@media (min-width: 992px) {
+    .container-small {
+        width: 500px;
+    }
+    .container-large {
+        padding:20px;
+    }
+}
+@media (min-width: 1200px) {
+    .container-small {
+        width: 700px;
+    }
+    .container-large {
+        padding:20px;
+        width:1300px;
+    }
 }

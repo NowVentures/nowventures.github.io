@@ -7,12 +7,20 @@
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/slider.css" rel="stylesheet">
+    <link href="css/team.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Lora:400,400italic,700' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans" rel="stylesheet">
     <link href="assets/N%20for%20header.png" rel="icon">
 </head>
+<style>
+
+    .img-center {
+        margin: 0 auto;
+        width:50%;
+    }
+</style>
 <body>
-<div class="container">
+<div class="container container-large">
     <nav class="navbar navbar-default navbar-fixed-top clear">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -33,7 +41,7 @@
             <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right ">
                     <li><a id="about-nav" style="cursor:pointer;">About</a></li>
-                    <li><a href="team/index.html">Team</a></li>
+                    <li><a id="team-nav">Team</a></li>
                     <li><a id="invest-nav" style="cursor:pointer;">Invest</a></li>
                     <li><a id="contact-nav" style="cursor:pointer">Contact Us</a></li>
                 </ul>
@@ -42,7 +50,7 @@
     </nav>
 </div>
 
-<div class="container" style="height:100vh;padding-top:5%">
+<div class="container container-large" style="height:100vh;padding-top:2%">
     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 
         <!-- Wrapper for Slides -->
@@ -60,9 +68,9 @@
 </div>
 
 
-    <div class="container" id="about">
+    <div class="container container-large" id="about" style="background-color:#f8f8f8">
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-10 col-md-offset-1">
                 <div class="section row">
                     <img src="assets/NOW%20LOGO.png" class="col-md-3 col-xs-12">
                     <div class="col-md-9 content">
@@ -83,8 +91,59 @@
                 </div>
             </div>
         </div>
-
-        <div class="row" id="invest">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+                <h1 class="page-header">Who</h1>
+            </div>
+        </div>
+        <div class="container" id="team">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <a href="shiza-shahid.html">
+                        <div class="col-lg-6 col-sm-6 text-center bio">
+                            <img class="img-responsive img-center bio-img" src="assets/profile/Shiza.png"
+                                 style="width:58%; margin-top:-20px; border-radius:50%; " alt="">
+                            <h3>Shiza Shahid
+                                <small>Investment Committee</small>
+                            </h3>
+                        </div>
+                    </a>
+                    <a href="naval-ravikant.html">
+                        <div class="col-lg-6 col-sm-6 text-center bio">
+                            <img class="img-circle img-responsive img-center bio-img" src="assets/profile/Naval.png" alt="">
+                            <h3>Naval Ravikant
+                                <small>Investment Committee</small>
+                            </h3>
+                        </div>
+                    </a>
+                    <a href="kevin-laws.html">
+                        <div class="col-lg-6 col-sm-6 text-center bio" style="padding:3%;">
+                            <img class="img-circle img-responsive img-center bio-img" src="assets/profile/Kevin.png" alt="">
+                            <h3>Kevin Laws
+                                <small>Investment Committee</small>
+                            </h3>
+                        </div>
+                    </a>
+                    <a href="clair-lee.html">
+                        <div class="col-lg-6 col-sm-6 text-center bio" style="padding:4%">
+                            <img class="img-circle img-responsive img-center bio-img" src="assets/profile/Clair.png" alt="">
+                            <h3>Clair Lee
+                                <small>Advisor</small>
+                            </h3>
+                        </div>
+                    </a>
+                    <a href="caterina-falleni.html">
+                        <div class="col-lg-6 col-sm-6 text-center bio">
+                            <img class="img-circle img-responsive img-center bio-img" src="assets/profile/Cat2bw.jpg" alt="">
+                            <h3>Caterina Falleni
+                                <small>Design Consultant</small>
+                            </h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row" id="invest" style="background-color:#f8f8f8; margin-top:10px; padding-bottom:80px;">
             <div class="col-lg-10 col-lg-offset-1">
                 <h1 class="page-header">Invest</h1>
                 <p style="font-family: 'Open Sans', sans-serif;">Become an investor through the AngelList Syndicate <a href="https://Angel.co/NOW" target="_blank">here</a></p>
@@ -182,6 +241,11 @@
     $("#contact-nav").click(function() {
         $('html, body').animate({
             scrollTop: $("#contact").offset().top-50
+        }, 1000);
+    });
+    $("#team-nav").click(function() {
+        $('html, body').animate({
+            scrollTop: $("#team").offset().top-50
         }, 1000);
     });
 </script>
